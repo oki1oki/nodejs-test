@@ -60,7 +60,7 @@ export const setupSwagger = (app: Express) => {
 				}
 			}
 		},
-		apis: [path.join(__dirname, "ticket", "*.js")]
+		apis: [path.join(__dirname, "ticket", "*.ts")]
 	}
 
 	const swaggerSpec = swaggerJsdoc(options)
